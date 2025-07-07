@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoFade Wax – Grip Strong. Color Stay.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      display: none; /* Hide the logo image */
+    }
+    header h1 {
+      margin: 10px 0 0;
+      font-size: 32px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #000;
+      font-size: 24px;
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NoFade Wax</h1>
+    <p>Grip Strong. Color Stay.</p>
+  </header>
+
+  <section>
+    <h2>What is NoFade Wax?</h2>
+    <p>NoFade Wax is specially made for FlowRider boards. It gives you amazing grip without damaging the color of your board. Tested every week at Wild Wadi Dubai!</p>
+  </section>
+
+  <section>
+    <h2>Price</h2>
+    <p><strong>Only 45 AED per bar</strong>. Comes in waterproof packaging.</p>
+  </section>
+
+  <section>
+    <h2>Want to Buy?</h2>
+    <p>Enter your info below. We'll email you with details and how to order:</p>
+    <form action="mailto:fallah.roham@yahoo.com" method="POST" enctype="text/plain">
+      <input type="text" name="Name" placeholder="Your Name" required>
+      <input type="email" name="Email" placeholder="Your Email" required>
+      <textarea name="Message" rows="4" placeholder="Your message (board type, delivery notes, etc)"></textarea>
+      <button type="submit">Register & Contact Me</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:fallah.roham@yahoo.com">fallah.roham@yahoo.com</a></p>
+    <p>Order on WhatsApp:</p>
+    <a class="button" href="https://wa.me/971000000000">Message on WhatsApp</a>
+  </section>
+
+  <footer>
+    © 2025 NoFade Wax | Follow us on TikTok @nofadewax
+  </footer>
+
+</body>
+</html>
